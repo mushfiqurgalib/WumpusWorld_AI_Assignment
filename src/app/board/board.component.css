@@ -1,0 +1,22 @@
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    align-content: flex-start;
+    justify-content: flex-start;
+    column-gap: 300px;
+}
+.board{
+    background-color: beige;
+    width: 600px;
+    height: 600px;
+}
+.scrboard{
+    background-color: rgb(207, 207, 120);
+    width: 200px;
+    height: 200px;
+}
