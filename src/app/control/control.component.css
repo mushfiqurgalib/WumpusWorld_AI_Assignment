@@ -1,0 +1,15 @@
+.bg{
+    background-color:#EEA47F;
+    overflow:hidden;
+}
+.container{
+    min-height: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color:#EEA47F;
+    overflow:hidden;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}

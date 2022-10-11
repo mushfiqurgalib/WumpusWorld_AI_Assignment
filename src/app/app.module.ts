@@ -7,13 +7,15 @@ import { AppComponent } from './app.component';
 import { BoardComponent } from './board/board.component';
 import { MainMenuComponent } from './main-menu/main-menu.component';
 import { GameMenuuComponent } from './game-menuu/game-menuu.component';
+import { ControlComponent } from './control/control.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     BoardComponent,
     MainMenuComponent,
-    GameMenuuComponent
+    GameMenuuComponent,
+    ControlComponent
   ],
   imports: [
     BrowserModule,

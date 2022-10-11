@@ -12,6 +12,10 @@ export class MainMenuComponent implements AfterViewInit,OnInit {
   goToGameMenu():void{
     this.router.navigate(["gameMenu"])
   }
+
+  goToControlMenu():void{
+    this.router.navigate(["control"])
+  }
   ngOnInit(): void {
   }
   ngAfterViewInit(): void {
